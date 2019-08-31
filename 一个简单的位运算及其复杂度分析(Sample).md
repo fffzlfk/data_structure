@@ -31,5 +31,6 @@ int main() {
 }
 ```
 #### 时间复杂度：
-总的循环次数为n展开为二进制后的位数，即$$ 1 + log_2n$$无论是该循环体之前、之内还是之后,均只涉及常数次(逻辑判断、位与运算、加法、右移
-等)基本操作。因此,countOnes()算法的执行时间主要由循环的次数决定,亦即:$$ O(1+[log_2n])=O([log_2n])=O(log_2n) $$由大O记号定义,在用函数log r n界定渐进复杂度时,常底数r的具体取值无所谓，故通常不予专门标出而笼统地记作logn，比如,尽管此处底数为常数2,却可直接记作O(logn)。此类算法称作具有“对数时间复杂度”(logarithmic-time algorithm)。
+总的循环次数为n展开为二进制后的位数，即<img src="http://latex.codecogs.com/gif.latex?1 + log_2n"/>无论是该循环体之前、之内还是之后,均只涉及常数次(逻辑判断、位与运算、加法、右移
+等)基本操作。因此,countOnes()算法的执行时间主要由循环的次数决定,亦即: <img src="http://latex.codecogs.com/gif.latex?O(1+[log_2n])=O([log_2n])=O(log_2n)" />
+由大O记号定义,在用函数log r n界定渐进复杂度时,常底数r的具体取值无所谓，故通常不予专门标出而笼统地记作logn，比如,尽管此处底数为常数2,却可直接记作O(logn)。此类算法称作具有“对数时间复杂度”(logarithmic-time algorithm)。
