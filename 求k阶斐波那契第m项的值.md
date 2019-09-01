@@ -1,7 +1,6 @@
 ﻿### 题目
-已知k阶斐波那契序列的定义为
-$$f_0 = 0, f_1 = 0, ...,f_{k-2}=0,f_{k-1}=1;$$
-$$f_n = f_{n-1}+f_{n-2}+...+f_{n-k},n=k,k+1,...$$
+已知k阶斐波那契序列的定义为<a href="https://www.codecogs.com/eqnedit.php?latex=f_0&space;=&space;0,&space;f_1&space;=&space;0,&space;...,f_{k-2}=0,f_{k-1}=1;" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_0&space;=&space;0,&space;f_1&space;=&space;0,&space;...,f_{k-2}=0,f_{k-1}=1;" title="f_0 = 0, f_1 = 0, ...,f_{k-2}=0,f_{k-1}=1;" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=f_n&space;=&space;f_{n-1}&plus;f_{n-2}&plus;...&plus;f_{n-k},n=k,k&plus;1,..." target="_blank"><img src="https://latex.codecogs.com/gif.latex?f_n&space;=&space;f_{n-1}&plus;f_{n-2}&plus;...&plus;f_{n-k},n=k,k&plus;1,..." title="f_n = f_{n-1}+f_{n-2}+...+f_{n-k},n=k,k+1,..." /></a>
 试编写求k阶斐波那契数列第m项值的算法，k和m均以值调用的形式在函数列表出现。
 ### 代码实现
 ```c
