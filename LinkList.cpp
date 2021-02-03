@@ -6,7 +6,7 @@ typedef struct value {
 	struct value *next;
 } LinkList;
 
-LinkList *creat(int n) {
+LinkList *create(int n) {
 	LinkList *head, *node, *end;
 	head = (LinkList*)malloc(sizeof(LinkList));
 	end = head;
@@ -35,7 +35,7 @@ void change(LinkList *list, int n) {
 	}
 }
 
-void delet(LinkList *list, int n) {
+void delete(LinkList *list, int n) {
 	LinkList *t = list, *in;
 	int i = 0;
 	while(i < n && t != NULL) {
@@ -77,7 +77,7 @@ void show(LinkList *h) {
 int main() {
 	int n;
 	scanf("%d", &n);
-	LinkList *h = creat(n);
+	LinkList *h = create(n);
 	show(h);
 	insert(h, 3, 9);
 	show(h);
